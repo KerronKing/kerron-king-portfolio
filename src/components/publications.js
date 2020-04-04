@@ -2,10 +2,10 @@ import React from 'react';
 import pubs from '../data/articles';
 
 const Publications = () => (
-  <div>
+  <div id="publications">
     <h2>Publications</h2>
     {pubs.map(pub => (
-      <div key={pub.id}>
+      <div key={pub.id} className="pubs">
         <img
           src={pub.image}
           alt={pub.alt}

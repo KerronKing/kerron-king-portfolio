@@ -2,9 +2,8 @@ const projects = [
   {
     id: 1,
     title: 'Weather App',
-    description: 'A simple weather app built using the Open Weather API.'
+    description: 'A simple weather app built using the Open Weather API and vanilla JS.'
     + ' It displays the weather conditions, local temperature and wind-speed',
-    tech: ['HTML5', 'CSS3', 'ES6'],
     imgSrc: 'https://www.dropbox.com/s/9ddf8ihowzpryor/weather-screen.png?raw=1',
     alt: 'Weather App screen',
     source: 'https://github.com/KerronKing/Weather-App-JS',
@@ -16,7 +15,6 @@ const projects = [
     title: 'Facebook Clone',
     description: 'A social app built using Ruby on Rails that allows users to'
     + ' sign in, be-friend other users, make posts, comments and like those posts.',
-    tech: ['Ruby on Rails', 'Ruby', 'CSS3'],
     imgSrc: 'https://www.dropbox.com/s/jinqqn77708uhix/fb-screen.png?raw=1',
     alt: 'Fb Clone',
     source: 'https://github.com/KerronKing/RoR-Facebook_Clone',
@@ -27,8 +25,7 @@ const projects = [
     id: 3,
     title: 'Bookstore CMS',
     description: 'A fast, dynamic and responsive front-end of an application that'
-    + ' organizes and manages a bookstore using React & Redux.',
-    tech: ['React', 'Redux', 'ES6'],
+    + ' organizes and manages a bookstore, build with React & Redux.',
     imgSrc: 'https://www.dropbox.com/s/9a1nowg5y9okwtw/bookstore-screen.png?raw=1',
     alt: 'Weather App screen',
     source: 'https://github.com/KerronKing/react-redux-bookstore',
@@ -40,7 +37,6 @@ const projects = [
     title: 'Budget Tracker',
     description: 'A budget tracking app built with React/Redux that'
     + ' interacts with a REST Api, built with Ruby on Rails',
-    tech: ['Ruby on Rails', 'React', 'Redux', 'ES6'],
     imgSrc: 'https://www.dropbox.com/s/0hn2figixikglj3/BT%20Screencap.png?raw=1',
     alt: 'Weather App screen',
     source: 'https://github.com/KerronKing/budget-tracker',
@@ -51,7 +47,6 @@ const projects = [
     id: 5,
     title: 'Battleship',
     description: 'A take on the classic game, Battleship, built with vanilla JS.',
-    tech: ['ES6', 'Jest', 'Webpack'],
     imgSrc: 'https://www.dropbox.com/s/99x3hkibotx6tok/battleship-screen.png?raw=1',
     alt: 'Weather App screen',
     source: '',

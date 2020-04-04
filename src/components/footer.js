@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <div>
+  <div id="footer">
     <p>© 2020 Kerron King. Made in the T&amp;T.</p>
   </div>
 );

@@ -19,11 +19,27 @@
   margin-top: 40%;
 }
 #info p {
-  color: rgba(88, 24, 69, 0.5);
+  color: rgb(88, 24, 69);
   margin-bottom: 15%;
 }
 #info a {
   margin-right: 1.2rem;
+}
+#info button {
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: rgb(88, 24, 69);
+  padding: 0.7rem;
+}
+#info button:hover {
+  -webkit-transition: background-color 200ms linear, color 200ms linear;
+  -moz-transition: background-color 200ms linear, color 200ms linear;
+  -o-transition: background-color 200ms linear, color 200ms linear;
+  -ms-transition: background-color 200ms linear, color 200ms linear;
+  transition: background-color 200ms linear, color 200ms linear;
+  background-color: rgb(88, 24, 69);
+  color: white;
 }
 .social {
   margin-bottom: 10%;
@@ -45,18 +61,73 @@
 }
 #section-4 {
   background-color: rgb(255, 195, 0);
+  color: rgb(88, 24, 69) !important;
 }
 #section-4 img {
   height: 491px !important;
   width: 264px !important;
+}
+#section-4 a {
+  color: rgb(88, 24, 69) !important;
 }
 #section-5 {
   background-color: rgb(255, 87, 51);
 }
 .project-tile {
   color: rgb(245, 230, 240);
-  padding: 1rem;
+  padding: 1rem 7rem 3rem 7rem;
 }
 .project-tile p {
+  font-weight: 100;
+  padding-bottom: 1.5rem;
+}
+.project-tile span {
+  margin-right: 1rem;
+}
+.project-tile a {
+  -webkit-transition: background-color 200ms linear, color 200ms linear;
+  -moz-transition: background-color 200ms linear, color 200ms linear;
+  -o-transition: background-color 200ms linear, color 200ms linear;
+  -ms-transition: background-color 200ms linear, color 200ms linear;
+  transition: background-color 200ms linear, color 200ms linear;
+  border: 1px solid;
+  border-radius: 5px;
+  color: rgb(245, 230, 240);
+  font-weight: 100;
+  text-decoration: none;
+  padding: 0.5rem;
+  margin-right: 1.5rem;
+}
+.project-tile a:hover {
+  background-color: white;
+  border: none;
+  color: rgb(89, 50, 126);
+}
+#publications {
+  background-color: rgb(218, 247, 166);
+  padding: 1rem 7rem 3rem 7rem;
+}
+#publications h2 {
+  margin-bottom: 2.5rem;
+}
+.pubs {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.5rem;
+}
+.pubs img {
+  margin-right: 1.5rem;
+}
+.pubs a {
+  color: black;
+  line-height: 5;
+  text-decoration: none;
+}
+.pubs a:hover {
+  text-decoration: underline;
+}
+#footer {
+  background-color: black;
+  color: white;
   padding: 1rem;
 }
