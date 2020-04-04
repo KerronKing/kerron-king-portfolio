@@ -13,8 +13,20 @@ const Project = ({
       width="400"
     />
     <p>{description}</p>
-    <a href={source}>Source code</a>
-    <a href={live}>Live demo</a>
+    <a
+      href={source}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Source code
+    </a>
+    <a
+      href={live}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Live demo
+    </a>
   </div>
 );
 

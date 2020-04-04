@@ -7,7 +7,7 @@ const projects = [
     imgSrc: 'https://www.dropbox.com/s/9ddf8ihowzpryor/weather-screen.png?raw=1',
     alt: 'Weather App screen',
     source: 'https://github.com/KerronKing/Weather-App-JS',
-    live: 'href="https://rawcdn.githack.com/KerronKing/Weather-App-JS/cc8049feb723d2478674c1c7444bb7642de725a7/dist/index.html',
+    live: 'https://rawcdn.githack.com/KerronKing/Weather-App-JS/cc8049feb723d2478674c1c7444bb7642de725a7/dist/index.html',
     styler: 'section-1',
   },
   {
@@ -27,7 +27,7 @@ const projects = [
     description: 'A fast, dynamic and responsive front-end of an application that'
     + ' organizes and manages a bookstore, build with React & Redux.',
     imgSrc: 'https://www.dropbox.com/s/9a1nowg5y9okwtw/bookstore-screen.png?raw=1',
-    alt: 'Weather App screen',
+    alt: 'Bookstore screen',
     source: 'https://github.com/KerronKing/react-redux-bookstore',
     live: 'https://kr-bookstore.herokuapp.com/',
     styler: 'section-3',
@@ -38,7 +38,7 @@ const projects = [
     description: 'A budget tracking app built with React/Redux that'
     + ' interacts with a REST Api, built with Ruby on Rails',
     imgSrc: 'https://www.dropbox.com/s/0hn2figixikglj3/BT%20Screencap.png?raw=1',
-    alt: 'Weather App screen',
+    alt: 'Budget Tracker screen',
     source: 'https://github.com/KerronKing/budget-tracker',
     live: 'https://king-budget-tracker.herokuapp.com/',
     styler: 'section-4',
@@ -48,9 +48,9 @@ const projects = [
     title: 'Battleship',
     description: 'A take on the classic game, Battleship, built with vanilla JS.',
     imgSrc: 'https://www.dropbox.com/s/99x3hkibotx6tok/battleship-screen.png?raw=1',
-    alt: 'Weather App screen',
-    source: '',
-    live: '',
+    alt: 'Battleship Screen',
+    source: 'https://github.com/KerronKing/Battleship-JS',
+    live: 'https://rawcdn.githack.com/KerronKing/Battleship-JS/56aac3cd696ecbe534c9d4430eeab7607ba826b0/dist/index.html',
     styler: 'section-5',
   },
 ];

@@ -12,7 +12,11 @@ const Publications = () => (
           height="80"
           width="80"
         />
-        <a href={pub.ref}>
+        <a
+          href={pub.ref}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {pub.title}
         </a>
       </div>
