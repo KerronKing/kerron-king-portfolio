@@ -1,38 +1,62 @@
 .App {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#info {
+  background-color: rgba(88, 24, 69, 0.01);
+  box-sizing: border-box;
+  height: 100%;
+  left: 0;
+  padding: 3rem;
+  position: fixed;
+  text-align: left;
+  width: 35%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#info h1 {
+  margin-bottom: 15%;
+  margin-top: 40%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#info p {
+  color: rgba(88, 24, 69, 0.5);
+  margin-bottom: 15%;
 }
-
-.App-link {
-  color: #61dafb;
+#info a {
+  margin-right: 1.2rem;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social {
+  margin-bottom: 10%;
+}
+#projects {
+  left: 35%;
+  position: relative;
+  top: 0%;
+  width: 65%;
+}
+#section-1 {
+  background-color: rgb(88, 24, 69);
+}
+#section-2 {
+  background-color: rgb(199, 0, 57);
+}
+#section-3 {
+  background-color: rgb(144, 12, 63);
+}
+#section-4 {
+  background-color: rgb(255, 195, 0);
+}
+#section-4 img {
+  height: 491px !important;
+  width: 264px !important;
+}
+#section-5 {
+  background-color: rgb(255, 87, 51);
+}
+.project-tile {
+  color: rgb(245, 230, 240);
+  padding: 1rem;
+}
+.project-tile p {
+  padding: 1rem;
 }

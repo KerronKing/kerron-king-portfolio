@@ -5,13 +5,18 @@ import Footer from '../components/footer';
 import projects from '../data/projects';
 
 const ProjectsSection = () => (
-  <div>
+  <div id="projects">
     {projects.map(project => (
       <Project
         key={project.id}
         title={project.title}
         description={project.description}
         tech={project.tech}
+        imgSrc={project.imgSrc}
+        alt={project.alt}
+        source={project.source}
+        live={project.live}
+        style={project.styler}
       />
     ))}
     <Publications />

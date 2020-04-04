@@ -3,6 +3,7 @@ import pubs from '../data/articles';
 
 const Publications = () => (
   <div>
+    <h2>Publications</h2>
     {pubs.map(pub => (
       <div key={pub.id}>
         <img
