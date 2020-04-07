@@ -25,7 +25,7 @@ const projects = [
     id: 3,
     title: 'Bookstore CMS',
     description: 'A fast, dynamic and responsive front-end of an application that'
-    + ' organizes and manages a bookstore, build with React & Redux.',
+    + ' organizes and manages a bookstore, built with React & Redux.',
     imgSrc: 'https://www.dropbox.com/s/9a1nowg5y9okwtw/bookstore-screen.png?raw=1',
     alt: 'Bookstore screen',
     source: 'https://github.com/KerronKing/react-redux-bookstore',
