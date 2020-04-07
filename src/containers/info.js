@@ -3,7 +3,7 @@ import contacts from '../data/contacts';
 
 const Info = () => (
   <div id="info">
-    <h1>Kerron King</h1>
+    <h1>KERRON KING</h1>
     <p>
       I&apos;m a software engineer based in Trinidad and Tobago.&#32;
       Let&apos;s work together to solve the world&apos;s problems one click at a time.

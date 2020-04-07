@@ -1,8 +1,9 @@
 .App {
   box-sizing: border-box;
-  font-family: monospace;
   display: flex;
+  font-size: 1.2rem;
   flex-direction: row;
+  font-family: monospace;
   overflow: hidden;
   text-align: center;
 }
