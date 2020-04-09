@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kerron-king-portfolio/static/css/main.7a00a020.chunk.css",
+    "main.js": "/kerron-king-portfolio/static/js/main.5cdabb50.chunk.js",
+    "main.js.map": "/kerron-king-portfolio/static/js/main.5cdabb50.chunk.js.map",
+    "runtime-main.js": "/kerron-king-portfolio/static/js/runtime-main.633cad21.js",
+    "runtime-main.js.map": "/kerron-king-portfolio/static/js/runtime-main.633cad21.js.map",
+    "static/js/2.98388eb9.chunk.js": "/kerron-king-portfolio/static/js/2.98388eb9.chunk.js",
+    "static/js/2.98388eb9.chunk.js.map": "/kerron-king-portfolio/static/js/2.98388eb9.chunk.js.map",
+    "index.html": "/kerron-king-portfolio/index.html",
+    "precache-manifest.3b0e7d9ba37ff9bde18bb07ce9635a76.js": "/kerron-king-portfolio/precache-manifest.3b0e7d9ba37ff9bde18bb07ce9635a76.js",
+    "service-worker.js": "/kerron-king-portfolio/service-worker.js",
+    "static/css/main.7a00a020.chunk.css.map": "/kerron-king-portfolio/static/css/main.7a00a020.chunk.css.map",
+    "static/js/2.98388eb9.chunk.js.LICENSE.txt": "/kerron-king-portfolio/static/js/2.98388eb9.chunk.js.LICENSE.txt",
+    "static/media/api-article.jpeg": "/kerron-king-portfolio/static/media/api-article.0cbfde3f.jpeg",
+    "static/media/barrier-article.jpeg": "/kerron-king-portfolio/static/media/barrier-article.9a399584.jpeg",
+    "static/media/prime-article.jpeg": "/kerron-king-portfolio/static/media/prime-article.1d6f42af.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.633cad21.js",
+    "static/js/2.98388eb9.chunk.js",
+    "static/css/main.7a00a020.chunk.css",
+    "static/js/main.5cdabb50.chunk.js"
+  ]
+}
