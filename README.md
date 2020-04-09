@@ -19,7 +19,7 @@ This is my portfolio site, repo. Take a look around!
 
 ## Live Demo <span id="demo"></span>
 
-Click [here](https://kerron-king-portfolio.herokuapp.com/) to see the live version.
+Click [here](https://kerronking.github.io/kerron-king-portfolio/) to see the live version.
 
 ## Installation and Usage <span id="use"></span>
 
