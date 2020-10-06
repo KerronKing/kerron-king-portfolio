@@ -55,26 +55,31 @@
   width: 65%;
 }
 #section-1 {
+  background-color: rgb(218, 247, 166);
+  color: rgb(88, 24, 69);
+}
+#section-1 a { color: rgb(88, 24, 69); }
+#section-2 {
   background-color: rgb(88, 24, 69);
 }
-#section-2 {
+#section-3 {
   background-color: rgb(199, 0, 57);
 }
-#section-3 {
+#section-4 {
   background-color: rgb(144, 12, 63);
 }
-#section-4 {
+#section-5 {
   background-color: rgb(255, 195, 0);
   color: rgb(88, 24, 69) !important;
 }
-#section-4 img {
+#section-5 img {
   height: 491px !important;
   width: 264px !important;
 }
-#section-4 a {
+#section-5 a {
   color: rgb(88, 24, 69) !important;
 }
-#section-5 {
+#section-6 {
   background-color: rgb(255, 87, 51);
 }
 .project-tile {
