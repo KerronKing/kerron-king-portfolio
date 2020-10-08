@@ -1,11 +1,17 @@
+@import './mixins.scss';
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Roboto+Mono&display=swap');
 .App {
   box-sizing: border-box;
   display: flex;
   font-size: 1.2rem;
   flex-direction: row;
-  font-family: monospace;
+  font-family: 'Nunito', sans-serif;
   overflow: hidden;
   text-align: center;
+}
+.hidden { opacity: 0; }
+.fade-in-element {
+  animation: fade-in 1.4s;
 }
 #info {
   background-color: rgba(88, 24, 69, 0.01);
@@ -29,17 +35,13 @@
   margin-right: 1.2rem;
 }
 #info button {
-  -webkit-transition: background-color 200ms linear, color 200ms linear;
-  -moz-transition: background-color 200ms linear, color 200ms linear;
-  -o-transition: background-color 200ms linear, color 200ms linear;
-  -ms-transition: background-color 200ms linear, color 200ms linear;
-  transition: background-color 200ms linear, color 200ms linear;
   border: 1px solid;
   border-radius: 5px;
   font-family: monospace;
   font-size: 1rem;
   color: rgb(88, 24, 69);
   padding: 0.7rem;
+  @include background-transition;
 }
 #info button:hover {
   background-color: rgb(88, 24, 69);
@@ -84,6 +86,7 @@
 }
 .project-tile {
   color: rgb(245, 230, 240);
+  height: 100vh;
   padding: 1rem 7rem 3rem 7rem;
 }
 .project-tile img {
@@ -98,11 +101,6 @@
   margin-right: 1rem;
 }
 .project-tile a {
-  -webkit-transition: background-color 200ms linear, color 200ms linear;
-  -moz-transition: background-color 200ms linear, color 200ms linear;
-  -o-transition: background-color 200ms linear, color 200ms linear;
-  -ms-transition: background-color 200ms linear, color 200ms linear;
-  transition: background-color 200ms linear, color 200ms linear;
   border: 1px solid;
   border-radius: 5px;
   color: rgb(245, 230, 240);
@@ -111,6 +109,7 @@
   padding: 0.5rem;
   margin-left: 0.75rem;
   margin-right: 0.75rem;
+  @include background-transition;
 }
 .project-tile a:hover {
   background-color: white;
@@ -151,9 +150,11 @@
     flex-direction: column;
   }
   #info {
+    height: 100vh;
     position: static;
     text-align: center;
     width: 100%;
+    @include first-tile-animation;
   }
   #info h1 {
     margin-bottom: 2rem;

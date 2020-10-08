@@ -1,0 +1,12 @@
+@mixin background-transition {
+  -webkit-transition: background-color 200ms linear, color 200ms linear;
+  -moz-transition: background-color 200ms linear, color 200ms linear;
+  -o-transition: background-color 200ms linear, color 200ms linear;
+  -ms-transition: background-color 200ms linear, color 200ms linear;
+  transition: background-color 200ms linear, color 200ms linear;
+}
+
+@mixin first-tile-animation {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+  animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
