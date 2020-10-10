@@ -9,10 +9,6 @@
   overflow: hidden;
   text-align: center;
 }
-.hidden { opacity: 0; }
-.fade-in-element {
-  animation: fade-in 1.4s;
-}
 #info {
   background-color: rgba(88, 24, 69, 0.01);
   box-sizing: border-box;
@@ -22,34 +18,30 @@
   position: fixed;
   text-align: left;
   width: 35%;
+  h1 {
+    margin-bottom: 15%;
+    margin-top: 40%;
+  }
+  p {
+    color: rgb(88, 24, 69);
+    margin-bottom: 15%;
+  }
+  a { margin-right: 1.2rem; }
+  button {
+    border: 1px solid;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 1rem;
+    color: rgb(88, 24, 69);
+    padding: 0.7rem;
+    @include background-transition;
+    &:hover {
+      background-color: rgb(88, 24, 69);
+      color: white;
+    }
+  }
 }
-#info h1 {
-  margin-bottom: 15%;
-  margin-top: 40%;
-}
-#info p {
-  color: rgb(88, 24, 69);
-  margin-bottom: 15%;
-}
-#info a {
-  margin-right: 1.2rem;
-}
-#info button {
-  border: 1px solid;
-  border-radius: 5px;
-  font-family: monospace;
-  font-size: 1rem;
-  color: rgb(88, 24, 69);
-  padding: 0.7rem;
-  @include background-transition;
-}
-#info button:hover {
-  background-color: rgb(88, 24, 69);
-  color: white;
-}
-.social {
-  margin-bottom: 10%;
-}
+.social { margin-bottom: 10%; }
 #projects {
   left: 35%;
   position: relative;
@@ -61,100 +53,81 @@
   color: rgb(88, 24, 69);
 }
 #section-1 a { color: rgb(88, 24, 69); }
-#section-2 {
-  background-color: rgb(88, 24, 69);
-}
-#section-3 {
-  background-color: rgb(199, 0, 57);
-}
-#section-4 {
-  background-color: rgb(144, 12, 63);
-}
+#section-2 { background-color: rgb(88, 24, 69); }
+#section-3 { background-color: rgb(199, 0, 57); }
+#section-4 { background-color: rgb(144, 12, 63); }
 #section-5 {
   background-color: rgb(255, 195, 0);
   color: rgb(88, 24, 69) !important;
-}
-#section-5 img {
-  height: 491px !important;
-  width: 264px !important;
-}
-#section-5 a {
-  color: rgb(88, 24, 69) !important;
-}
-#section-6 {
-  background-color: rgb(255, 87, 51);
-}
+  img {
+    height: 491px !important;
+    width: 264px !important;
+  }
+  a {
+    color: rgb(88, 24, 69) !important;
+  }
+} 
+#section-6 { background-color: rgb(255, 87, 51); }
 .project-tile {
   color: rgb(245, 230, 240);
   height: 100vh;
   padding: 1rem 7rem 3rem 7rem;
-}
-.project-tile img {
-  display: block;
-  margin: 0 auto;
-}
-.project-tile p {
-  font-weight: 100;
-  padding-bottom: 1.5rem;
-}
-.project-tile span {
-  margin-right: 1rem;
-}
-.project-tile a {
-  border: 1px solid;
-  border-radius: 5px;
-  color: rgb(245, 230, 240);
-  font-weight: 100;
-  text-decoration: none;
-  padding: 0.5rem;
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-  @include background-transition;
-}
-.project-tile a:hover {
-  background-color: white;
-  border: none;
-  color: rgb(89, 50, 126);
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  p {
+    font-weight: 100;
+    padding-bottom: 1.5rem;
+  }
+  span { margin-right: 1rem; }
+  a {
+    border: 1px solid;
+    border-radius: 5px;
+    color: rgb(245, 230, 240);
+    font-weight: 100;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    &:hover {
+      background-color: white;
+      border: none;
+      color: rgb(89, 50, 126);
+    }
+  }
 }
 #publications {
   background-color: rgb(218, 247, 166);
   padding: 1rem 7rem 3rem 7rem;
-}
-#publications h2 {
-  margin-bottom: 2.5rem;
+  h2 { margin-bottom: 2.5rem; }
 }
 .pubs {
   display: flex;
   flex-direction: row;
   margin-bottom: 1.5rem;
-}
-.pubs img {
-  margin-right: 1.5rem;
-}
-.pubs a {
-  color: black;
-  font-size: 1rem !important;
-  text-align: left;
-  text-decoration: none;
-}
-.pubs a:hover {
-  text-decoration: underline;
+  img { margin-right: 1.5rem; }
+  a {
+    color: black;
+    font-size: 1rem !important;
+    text-align: left;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
 }
 #footer {
   background-color: black;
   color: white;
   padding: 1rem;
 }
+
 @media only screen and (max-width: 992px) {
-  .App {
-    flex-direction: column;
-  }
+  .App { flex-direction: column; }
   #info {
     height: 100vh;
     position: static;
     text-align: center;
     width: 100%;
-    @include first-tile-animation;
   }
   #info h1 {
     margin-bottom: 2rem;
@@ -168,17 +141,12 @@
     position: static;
     width: 100%;
   }
-  .project-tile {
-    padding: 1rem 1rem 3rem 1rem;
-  }
+  .project-tile { padding: 1rem 1rem 3rem 1rem; }
   #section-5 { height: 120vh; }
-  #publications {
-    padding: 1rem;
-  }
-  .pubs a {
-    line-height: 2;
-  }
+  #publications { padding: 1rem; }
+  .pubs a { line-height: 2; }
 }
+
 @media only screen and (max-width: 468px) {
   .project-tile { height: 110vh; }
   .project-tile img {
