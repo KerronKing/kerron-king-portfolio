@@ -171,6 +171,7 @@
   .project-tile {
     padding: 1rem 1rem 3rem 1rem;
   }
+  #section-5 { height: 120vh; }
   #publications {
     padding: 1rem;
   }
@@ -179,8 +180,11 @@
   }
 }
 @media only screen and (max-width: 468px) {
+  .project-tile { height: 110vh; }
   .project-tile img {
     height: 300px !important;
     width: 300px !important;
   }
+  #section-5 { height: 140vh; }
+  #section-6 { height: 100vh; }
 }
